@@ -1,0 +1,547 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400&display=swap');
+body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Abril Fatface', cursive; */
+    font-family: 'Julius Sans One', sans-serif;
+   
+    
+}
+
+
+
+/* style de la nav  */
+.zone-flotaison{
+    min-height: 100vh;
+}
+nav a{
+    
+    text-decoration: none;
+    font-size:16px ;
+    font-weight: bold;
+    
+    letter-spacing: 3px;
+    text-align: center;
+}
+header{
+    
+    /* position: fixed;
+    top: 0;
+    left: 0; */
+    width: 100%;        
+}
+
+#dark-mode{
+    color: white;
+    background-color: black;
+    border-radius: 25px;
+    margin-right: 40px;
+}
+
+.navigation{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 50px;
+}
+.navigation figure{
+    width: 40%;
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 35px;
+    
+}
+.navigation nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 35px;
+    
+}
+.navigation nav a{
+    width: 25%;
+    font-weight: bold;    
+}
+
+
+/* Zone de flotaison  */
+
+.title{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    margin-top: 270px;
+    
+}
+.flot{
+    width: 50% ; 
+    padding-left: 100px;
+}
+.imageflot{
+    width: 50%;
+    margin: auto;
+    padding: 0px;
+    text-align: center;
+    
+    
+}
+.title img{
+    width: 60%;
+    height: 100%;
+    border-radius: 40px;
+    
+}
+
+h1{
+    font-size: 70px;
+    letter-spacing: 6px;
+    font-weight: 100;
+    font-family: 'Julius Sans One', sans-serif;
+    
+}
+
+.title p{
+    
+    letter-spacing: 3px;
+    margin-top: 60px;
+}
+
+/* 1 er bloc formation  */
+
+.container1{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    margin-top: 0;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1px;
+    
+
+}
+.contenu{
+    width: 45%;
+    
+    /* background-color: white; */
+    /* border: 1px solid black ; */
+    
+}
+.contenu h2{
+    text-align: center;
+    padding: 40px 0;
+    font-size: 40px;
+    
+}
+.sf-general{
+    display: flex;
+    margin: auto;
+    font-size: 19px;
+}
+.sf-technique{
+    width: 70%;
+}
+
+.formation{
+    display: flex;
+    margin: auto;
+}
+.projet{
+    width: 70%;
+    font-size: 19px;
+    line-height: 25px;
+}
+.projet::first-line{
+    font-weight: bold;
+}
+.date{
+    width: 20%;
+    padding-left: 25px;
+}
+.date p {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+}
+.sf-relationel p{
+    padding: 10px 0;
+    line-height: 40px;
+}
+
+h2{
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+
+
+
+
+/* style de la barre de navigation  */
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-track{
+    background:#b57335
+
+}
+::-webkit-scrollbar-thumb{
+    background: #16697b;
+}
+
+/* je cache le button de validation  */
+.burger, #burger{display: none;}
+
+/* block technologies */
+.contenu-competences{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    
+}
+
+.contenu img{
+    width: 50px;
+}
+
+.technologie{
+    
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+    
+    
+    
+}
+.technologie-container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    padding-bottom: 100px;
+}
+.technologie figure{
+    width: 50%;
+}
+.technologie h2{
+    
+    padding: 60px;
+    font-size: 40px;
+    
+}
+.desc-image img{
+    width: 700px;
+}
+.contenu-competences{
+    width: 70%;
+    margin: auto;
+    padding: 15px;
+    
+   
+    
+
+}
+.contenu-competences p{
+    margin: 0;
+    text-align: center;
+    text-transform: none;
+    font-size: 20px;
+}
+.html{
+    display: flex;
+    margin: 25px;
+    align-items: center;
+    
+}
+.techno{
+    width: 30%;
+    
+    text-align: center;
+}
+.description{
+    width: 50%;
+}
+
+
+/* block portfolio  */
+.portfolio{
+    margin-bottom: 400px;
+}
+.portfolio h2{
+    font-size: 40px;
+}
+.realisations{
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 120px;
+}
+.morpion{
+    background-image: url(./images/morpion.webp);
+    height: 600px;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.meteo{
+    background-image: url(./images/web-api.jpg);
+    height: 600px;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+.travauxP{
+    background-image: url(./images/tp.png);
+    height: 600px;
+    width: 20%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    border-radius: 25px 25px 0 0;
+}
+
+.portfolio h2{
+    padding:60px ;
+}
+.realisations a{
+    border: 0px solid black;
+    border-radius: 25px;
+    padding: 20px;
+    margin-top: 25px;
+    text-decoration: none;
+}
+
+.git{
+    margin-top: 40px;
+    
+}
+
+.cadre{
+    min-height: 15vh;
+    
+    
+}
+
+/* footer  */
+.logo{
+    width: 120px;
+    padding: 50px;
+}
+.footer{
+    text-align: center;
+}
+.footer p{
+    margin-top: 50px;
+}
+
+
+.reseaux {
+    border-top: 1px solid black;
+    border-radius: 100% 100% 0 0;
+    
+}
+.reseaux img{
+    padding: 20px;
+}
+.reseaux:first-line{
+    font-size: 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+}
+
+/* couleur site de base */
+
+
+.body-color{
+    background-color: #b57335;
+}
+
+.body-color nav a{
+    color: black;
+}
+
+.body-color h1 span{
+    color: white;
+    text-shadow: 5px solid black;   
+}
+.body-color h1 {
+    color: #16697b;
+}
+.body-color h2 {
+    color: #16697b;
+}
+.body-color .technologie h2{
+    color: black;
+}
+.body-color .technologie {
+    background-color: #16697b;
+}
+
+.body-color .contenu h2 span {
+    color: white;
+}
+
+.body-color .cadre {
+    background-color: rgb(22, 105, 123,0.90);
+
+}
+.body-color .realisations a{
+    color: white;
+    background-color: black;
+}
+.body-color .realisations a:hover{
+    color: black;
+    background-color: #b57335;
+}
+
+.body-color .reseaux{
+    background-color: #16697b;
+}
+
+/* couleur en dark mode */
+
+.dark-mode{
+    background-color: rgb(21, 19, 19);
+    color: white;
+}
+
+.dark-mode nav a{
+    color: white;
+}
+
+.dark-mode h1 span{
+    color: white;
+    text-shadow: 5px solid black;   
+}
+.dark-mode h1 {
+    color: #47474a;
+}
+.dark-mode h2 {
+    color: #47474a;
+}
+.dark-mode .technologie h2{
+    color: black;
+}
+
+.dark-mode .contenu h2 span {
+    color: white;
+}
+
+.dark-mode .cadre {
+    background-color: rgb(71, 71, 74,0.90);
+
+}
+.dark-mode .realisations a{
+    color: white;
+    background-color: black;
+}
+.dark-mode .realisations a:hover{
+    color: black;
+    background-color: #b57335;
+}
+
+.dark-mode .reseaux{
+    background-color: #47474a;
+}
+.dark-mode .technologie {
+    background-color:#47474a ;
+}
+
+
+
+@media (max-width:1300px) {
+    .navigation nav{
+        flex-wrap: wrap;
+    }
+    .navigation nav a{
+        width: 40%;
+        margin: 15px;
+    }
+    .imageflot img{
+        width: 357px;
+        height: 268px;
+    }
+    
+  
+}
+@media (max-width:1100px){
+    .container1{
+        flex-wrap: wrap;
+    }
+    .contenu{
+        width: 70%;
+        margin: auto;
+        margin: 20px auto;
+    }
+    .title{
+        display: flex;
+        flex-direction: column-reverse;
+        width: 80%;
+        margin: auto;
+        margin-top: 190px;
+    }
+    h1{
+        font-size: 40px;
+    }
+    .flot{
+        text-align: center;
+        width: 80%;
+        padding: 0;
+        margin: auto;
+        margin-top: 40px;
+        
+    }
+    .imageflot{
+        width: 80%;
+    }
+}
+
+@media (max-width:800px){
+    .navigation label{
+        width: 50%;
+        text-align: center;
+        padding-left: 20px;
+    }
+    .navigation figure{
+         width: 50%;
+         display: flex;
+         flex-direction: row-reverse;
+    }
+    .burger {
+        display: block;
+    }
+    header label{display: block;}
+    nav{
+        position: absolute;
+        width:150px;
+        left:0; 
+        top:105px;
+        background:  #16697b;
+        max-height: 0;
+        transition: 2s all ease;
+        overflow: hidden;
+    }
+    #burger:checked~nav{
+        max-height: 200px;
+        transition: 2s all ease;
+        
+    }
+   
+    nav a{
+        display: block;
+        padding: 10px 5px;
+    }
+}
