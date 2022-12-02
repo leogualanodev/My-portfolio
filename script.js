@@ -27,14 +27,25 @@ button.addEventListener(`click`, function(){
 })
 
 
-let citation = document.querySelector(".citations")
+// let citation = document.querySelector(".citations")
 
-let tableau = new Array(1);
-    tableau[0]="Je suis jeune un jeune développeur, soyez indulgent !";
+// let text= "Je suis un jeune développeur, soyez indulgent !";
 
-function ChangeMessage(){
-    
-}
+// let tab = text.split("")
+// let i=0
+// function ChangeMessage(){
+
+//     do{
+//     i++
+//     citation.innerHTML += tab[i-1];
+//     }
+//     while(i<tab.length)
+
+   
+
+// }
+
+// setInterval(ChangeMessage,300);
     
 
 
