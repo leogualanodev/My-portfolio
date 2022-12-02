@@ -66,8 +66,14 @@ header{
 }
 .navigation nav a{
     width: 25%;
-    font-weight: bold;    
+    font-weight: bold; 
+    border: 1px solid;
+    padding: 10px;
+    border-radius: 10px;
+    align-items: center;   
 }
+
+
 
 
 /* Zone de flotaison  */
@@ -76,7 +82,7 @@ header{
     display: flex;
     width: 80%;
     margin: auto;
-    margin-top: 270px;
+    margin-top: 150px;
     
 }
 .flot{
@@ -184,13 +190,7 @@ h2{
 ::-webkit-scrollbar{
     width: 10px;
 }
-::-webkit-scrollbar-track{
-    background:#b57335
 
-}
-::-webkit-scrollbar-thumb{
-    background: #16697b;
-}
 
 /* je cache le button de validation  */
 .burger, #burger{display: none;}
@@ -364,7 +364,13 @@ h2{
 
 /* couleur site de base */
 
+.body-color::-webkit-scrollbar-track{
+    background:#b57335
 
+}
+.body-color::-webkit-scrollbar-thumb{
+    background: #16697b;
+}
 .body-color{
     background-color: #b57335;
 }
@@ -411,7 +417,19 @@ h2{
     background-color: #16697b;
 }
 
+.body-color .navigation nav a:hover{
+    background-color: #16697b;
+}
+
 /* couleur en dark mode */
+
+.dark-mode::-webkit-scrollbar-track{
+    background:rgb(21, 19, 19)
+
+}
+.dark-mode::-webkit-scrollbar-thumb{
+    background: #16697b;
+}
 
 .dark-mode{
     background-color: rgb(21, 19, 19);
@@ -459,6 +477,11 @@ h2{
 .dark-mode .technologie {
     background-color:#47474a ;
 }
+.dark-mode .realisations a:hover{
+    color: white;
+    background-color: #16697b;
+}
+
 
 
 
