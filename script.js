@@ -26,4 +26,16 @@ button.addEventListener(`click`, function(){
     }
 })
 
+
+let citation = document.querySelector(".citations")
+
+let tableau = new Array(1);
+    tableau[0]="Je suis jeune un jeune développeur, soyez indulgent !";
+
+function ChangeMessage(){
+    
+}
+    
+
+
     
