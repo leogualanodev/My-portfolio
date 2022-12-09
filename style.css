@@ -67,7 +67,7 @@ header{
 .navigation nav a{
     width: 25%;
     font-weight: bold; 
-    border: 1px solid;
+    border: 1px solid #16697b;
     padding: 10px;
     border-radius: 10px;
     align-items: center;   
@@ -244,7 +244,7 @@ h2{
 }
 .contenu-competences p{
     margin: 0;
-    text-align: center;
+    
     text-transform: none;
     font-size: 20px;
 }
@@ -261,6 +261,24 @@ h2{
 }
 .description{
     width: 50%;
+}
+
+/* annimatuion des mes images */
+@-moz-keyframes spin{
+    100% { -moz-transform: rotate(-360deg);}
+}
+
+@-webkit-keyframes spin{
+    100% { -webkit-transform: rotate(-360deg);}
+}
+
+@keyframes spin {
+    100% { -webkit-transform: rotate(-360deg);transform: rotate(-360deg);}
+}
+.techno img{
+    -webkit-animation: spin 1.5s infinite;
+    -moz-animation: spin 1.5s infinite;
+    animation: spin 1.5s infinite;
 }
 
 
@@ -400,6 +418,10 @@ h2{
     color: white;
 }
 
+.body-color h2 span {
+    color: white;
+}
+
 .body-color .cadre {
     background-color: rgb(22, 105, 123,0.90);
 
@@ -445,7 +467,7 @@ h2{
     text-shadow: 5px solid black;   
 }
 .dark-mode h1 {
-    color: #47474a;
+    color: #16697b;
 }
 .dark-mode h2 {
     color: #47474a;
@@ -457,6 +479,7 @@ h2{
 .dark-mode .contenu h2 span {
     color: white;
 }
+
 
 .dark-mode .cadre {
     background-color: rgb(71, 71, 74,0.90);
@@ -475,7 +498,7 @@ h2{
     background-color: #47474a;
 }
 .dark-mode .technologie {
-    background-color:#47474a ;
+    background-color:#16697b ;
 }
 .dark-mode .realisations a:hover{
     color: white;
@@ -530,6 +553,9 @@ h2{
     .imageflot{
         width: 80%;
     }
+    .flot p{
+        text-align: left;
+    }
 }
 
 @media (max-width:800px){
@@ -550,11 +576,11 @@ h2{
     nav{
         position: absolute;
         width:150px;
-        left:0; 
-        top:105px;
+        left:10pxpx ; 
+        top:115px;
         background:  #16697b;
         max-height: 0;
-        transition: 2s all ease;
+        transition: 1s all ease;
         overflow: hidden;
     }
     #burger:checked~nav{
@@ -567,4 +593,33 @@ h2{
         display: block;
         padding: 10px 5px;
     }
+
+    .flot p{
+        text-align: left;
+    }
+    .navigation nav a{
+        width: 100%;
+        font-weight: bold; 
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+        align-items: center;   
+    }
+
+    .navigation nav a:hover{
+        color: black;
+    }
+
+    .navigation nav{
+        padding-left: 0px;
+    }
+
+    .title{
+        margin-top: 50px;
+    }
+}
+
+
+@media (max-width:450px){
+
 }
