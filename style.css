@@ -210,10 +210,7 @@ h2{
 .technologie{
     
     margin-top: 100px;
-    font-family: 'Lato', sans-serif;
-    
-    
-    
+    font-family: 'Lato', sans-serif;   
 }
 .technologie-container{
     display: flex;
@@ -265,15 +262,15 @@ h2{
 
 /* annimatuion des mes images */
 @-moz-keyframes spin{
-    100% { -moz-transform: rotate(-360deg);}
+    100% { -moz-transform: rotate(+360deg);}
 }
 
 @-webkit-keyframes spin{
-    100% { -webkit-transform: rotate(-360deg);}
+    100% { -webkit-transform: rotate(+360deg);}
 }
 
 @keyframes spin {
-    100% { -webkit-transform: rotate(-360deg);transform: rotate(-360deg);}
+    100% { -webkit-transform: rotate(360deg);transform: rotate(360deg);}
 }
 .techno img{
     -webkit-animation: spin 1.5s infinite;
@@ -291,44 +288,53 @@ h2{
 }
 .realisations{
     display: flex;
+    flex-wrap: wrap;
     width: 70%;
     justify-content: space-between;
     margin: auto;
-    margin-top: 120px;
+    margin-top: 100px;
 }
 .morpion{
-    background-image: url(./images/morpion.webp);
-    height: 600px;
-    width: 20%;
+    
+    height: 500px;
+    width: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    border-radius: 25px 25px 0 0;
+    
+    margin-bottom: 70px;
+    
 }
 
 .meteo{
-    background-image: url(./images/web-api.jpg);
-    height: 600px;
-    width: 20%;
+    
+    height: 500px;
+    width: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    border-radius: 25px 25px 0 0;
+    
 }
 .travauxP{
-    background-image: url(./images/tp.png);
-    height: 600px;
-    width: 20%;
+   
+    height: 500px;
+    width: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column-reverse;
     text-align: center;
-    border-radius: 25px 25px 0 0;
+    
+    
+}
+
+.cadre img{
+    width: 100%;
+    height: 70%;
 }
 
 .portfolio h2{
@@ -348,7 +354,7 @@ h2{
 }
 
 .cadre{
-    min-height: 15vh;
+    min-height: 50vh;
     
     
 }
@@ -423,7 +429,7 @@ h2{
 }
 
 .body-color .cadre {
-    background-color: rgb(22, 105, 123,0.90);
+    background-color: rgb(22, 105, 123);
 
 }
 .body-color .realisations a{
