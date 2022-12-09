@@ -337,6 +337,12 @@ h2{
     height: 70%;
 }
 
+.portfolio img {
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-top: 4px solid #16697b;
+}
+
 .portfolio h2{
     padding:60px ;
 }
@@ -372,6 +378,8 @@ h2{
 }
 
 
+
+
 .reseaux {
     border-top: 1px solid black;
     border-radius: 100% 100% 0 0;
@@ -384,6 +392,10 @@ h2{
     font-size: 25px;
     font-family: 'Lato', sans-serif;
     font-weight: bold;
+}
+
+.reseaux button{
+    border: none;
 }
 
 /* couleur site de base */
@@ -448,6 +460,13 @@ h2{
 .body-color .navigation nav a:hover{
     background-color: #16697b;
 }
+.body-color .reseaux button {
+    background-color: #16697b;
+}
+.body-color .portfolio img {
+    
+    border-top: 4px solid #16697b;
+}
 
 /* couleur en dark mode */
 
@@ -469,6 +488,12 @@ h2{
 }
 
 
+.dark-mode .portfolio img {
+    
+    border-top: 4px solid #47474a;
+}
+
+
 .dark-mode h1 span{
     color: white;
     text-shadow: 5px solid black;   
@@ -477,7 +502,7 @@ h2{
     color: #16697b;
 }
 .dark-mode h2 {
-    color: #47474a;
+    color: #16697b;
 }
 .dark-mode .technologie h2{
     color: black;
@@ -510,6 +535,10 @@ h2{
 .dark-mode .realisations a:hover{
     color: white;
     background-color: #16697b;
+}
+
+.dark-mode .reseaux button {
+    background-color: #47474a;
 }
 
 

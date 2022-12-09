@@ -33,20 +33,37 @@ button.addEventListener(`click`, function(){
 
 // let tab = text.split("")
 // let i=0
+// let a = 0 
 // function ChangeMessage(){
+    
+//     do {
+//         i++
+//         citation.innerHTML += tab[i-1];
+        
+//         a = a + i
+//         break
+          
+//     } while ( i = 1)
 
-//     do{
-//     i++
-//     citation.innerHTML += tab[i-1];
-//     }
-//     while(i<tab.length)
-
+//     return a 
    
+    
 
+    
 // }
 
-// setInterval(ChangeMessage,300);
-    
+
+// setInterval(ChangeMessage,180);
+
+let buttonScrollUp= document.querySelector(`.reseaux button`)
+
+buttonScrollscrollUp.addEventListener("click",scrollUp())
+
+function scrollUp(){
+
+}
+
+// https://w3collective.com/scroll-to-top-button-javascript/
 
 
     
