@@ -1,3 +1,5 @@
+// definiele dark mode de mon portfolio 
+
 let button = document.querySelector(`#dark-mode`);
 console.log(button);
 
@@ -27,37 +29,55 @@ button.addEventListener(`click`, function(){
 })
 
 
-// let citation = document.querySelector(".citations")
+// apparition de mon paragraphe lettre par lettre 
 
-// let text= "Je suis un jeune développeur, soyez indulgent !";
+let citation = document.querySelector(".citations")
 
-// let tab = text.split("")
-// let i=0
-// let a = 0 
-// function ChangeMessage(){
-    
-//     do {
-//         i++
-//         citation.innerHTML += tab[i-1];
-        
-//         a = a + i
-//         break
-          
-//     } while ( i = 1)
+let text= "Je suis un jeune développeur, soyez indulgent !";
 
-//     return a 
-   
-    
+let tab = text.split("")
 
-    
+let i =0
+
+const intervalID = setInterval(() => {
+    citation.innerHTML += tab[i]
+    i++
+    if(i >= tab.length)
+    {
+        clearInterval(intervalID)
+    }
+}, 100);
+
+// setTimeout(function(){
+//     for (let i = 0 ; i < tab.length ; i++){
+//         citation.innerHTML += tab[i]
+//     }
+// },100)
+
+// for ( let i = 0 ; i < tab.length ; i++){
+//     function (i) {
+//         setTimeout(function(){
+//             citation.innerHTML += tab[i] ; 
+//         }, 200)
+//     }
+// }
+
+// function setText (i) {
+//     setTimeout(function(){
+//         citation.innerHTML += tab[i]
+//     },2000)
+// }
+
+// for ( let i = 0 ; i < tab.length ; i++){
+//     setText(i)
 // }
 
 
-// setInterval(ChangeMessage,180);
+
 
 let buttonScrollUp= document.querySelector(`.reseaux button`)
 
-buttonScrollscrollUp.addEventListener("click",scrollUp())
+//buttonScrollscrollUp.addEventListener("click",scrollUp())
 
 function scrollUp(){
 

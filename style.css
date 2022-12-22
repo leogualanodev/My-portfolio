@@ -32,23 +32,27 @@ header{
     /* position: fixed;
     top: 0;
     left: 0; */
-    width: 100%;        
+    width: 100%;
+            
 }
 
 #dark-mode{
-    color: white;
-    background-color: black;
-    border-radius: 25px;
+    color: black;
+    /* background-color: black; */
+    /* border-radius: 25px; */
     margin-right: 40px;
+    border: 1px solid black ;
+    height: 40px;
+    align-self: center;
 }
 
 .navigation{
     display: flex;
     align-items: center;
-    margin-top: 30px;
+    margin-top: 0px;
     width: 90%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 0px;
 }
 .navigation figure{
     width: 40%;
@@ -73,7 +77,14 @@ header{
     align-items: center;   
 }
 
+.citations {
+    text-align: center;
+}
 
+.logotop {
+    
+    align-self: center;
+}
 
 
 /* Zone de flotaison  */
@@ -227,8 +238,12 @@ h2{
     font-size: 40px;
     
 }
+.desc-image {
+    display: flex;
+}
 .desc-image img{
-    width: 700px;
+    width: 100%;
+    margin: auto ;
 }
 .contenu-competences{
     width: 70%;
@@ -292,7 +307,7 @@ h2{
     width: 70%;
     justify-content: space-between;
     margin: auto;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 .morpion{
     
@@ -304,7 +319,7 @@ h2{
     flex-direction: column-reverse;
     text-align: center;
     
-    margin-bottom: 70px;
+    
     
 }
 
@@ -401,14 +416,14 @@ h2{
 /* couleur site de base */
 
 .body-color::-webkit-scrollbar-track{
-    background:#b57335
+    background:#ffffff;
 
 }
 .body-color::-webkit-scrollbar-thumb{
     background: #16697b;
 }
 .body-color{
-    background-color: #b57335;
+    background-color: #f4ebeb;
 }
 
 .body-color nav a{
@@ -416,7 +431,7 @@ h2{
 }
 
 .body-color h1 span{
-    color: white;
+    color: #b57335;
     text-shadow: 5px solid black;   
 }
 .body-color h1 {
@@ -433,11 +448,11 @@ h2{
 }
 
 .body-color .contenu h2 span {
-    color: white;
+    color: #b57335;
 }
 
 .body-color h2 span {
-    color: white;
+    color:#b57335 ; 
 }
 
 .body-color .cadre {
