@@ -310,21 +310,36 @@ h2{
 .portfolio h2{
     padding:60px ;
 }
-
+.image-projet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .image-projet img {
-    width: 450px;
+    width: 500px;
     border-radius: 20px;
+    
+}
+.portfolio p {
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    letter-spacing: 3px;
+    line-height: 25px;
 }
 
 .container-projet {
     width: 80%;
     margin: auto;
     display: flex;
-    margin-top: 100px;
+    margin-top: 125px;
 }
 
 .description-projet {
     width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
 }
 .image-projet {
     width: 50%;
@@ -348,6 +363,15 @@ h2{
     font-size: 25px;
     
     margin-bottom: 50px;
+}
+
+.button-projet a {
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 15px;
+    border-radius: 10px;
+    width: 25%;
+    text-align: center;
 }
 
 
@@ -452,6 +476,15 @@ h2{
 }
 .body-color .reseaux button {
     background-color: #16697b;
+}
+
+.body-color .button-projet a {
+    background-color: #16697b;
+    color: white;
+}
+.body-color .button-projet a:hover {
+    background-color: #b57335;
+    color: black;
 }
 
 
