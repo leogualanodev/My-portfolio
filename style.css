@@ -603,12 +603,44 @@ h2{
         margin-top: 40px;
         
     }
+    nav a {
+        font-size: 10px;
+    }
     .imageflot{
         width: 80%;
     }
     .flot p{
         text-align: left;
     }
+    .desc-image {
+        display: none;
+    }
+
+    .image-projet img {
+        width: 300px;
+    }
+    .portfolio h3 {
+        font-size: 15px;
+    }
+    .portfolio p {
+        font-size: 15px;
+        padding: 2px;
+    }
+
+    .button-projet a {
+        font-size: 10px;
+    }
+    .button-projet {
+        margin-top: 25px;
+    }
+
+    .techno {
+        padding-right: 15px;
+    }
+
+
+
+
 }
 
 @media (max-width:800px){
@@ -670,9 +702,110 @@ h2{
     .title{
         margin-top: 50px;
     }
+    .image-projet  {
+        display: none;
+    }
+    .description-projet {
+        width: 75%;
+        margin: auto;
+    }
+
+    h2 {
+        text-align: center;
+        
+    }
+
 }
 
 
-@media (max-width:450px){
+@media (max-width:600px){
+    .zone-flotaison figure {
+        padding: 0px;
+    }
 
+    h1 {
+        font-size: 35px;
+        margin-top: 15px;
+    }
+    .title {
+        width: 100%;
+    }
+    .imageflot img {
+        width: 300px;
+    }
+
+    .flot p {
+        margin-top: 40px;
+    }
+
+    #formation {
+        width: 100%;
+    }
+    #formation h2 {
+        margin-top: 15px;
+    }
+    #formation h3 {
+        font-size: 20px;
+    }
+    .date p {
+        font-size: 12px;
+        
+    }
+    .date {
+        padding-left: 60px;
+        margin-top: 25px;
+        text-align: center;
+    }
+
+    .projet p {
+        font-size: 17px;
+        width: 250px;
+    }
+    .sf-general {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .sf-general h3 {
+        text-align: center;
+    }
+    .sf-technique {
+        width: 100%;
+    }
+    .sf-relationel {
+        width: 100%;
+    }
+
+    .contenu h2{
+        font-size: 35px;
+    }
+
+    .technologie h2 {
+        font-size: 35px;
+    }
+    .technologie-container {
+        width: 100%;
+
+    }
+    .html {
+        width: 100%;
+        
+        
+    }
+    .description p {
+        text-align: center;
+        margin-top: 15px;
+    }
+    .contenu-competences {
+        width: 100%;
+        margin: auto;
+    }
+    .container-projet {
+        width: 100%;
+        margin-top: 50px;
+    }
+    .container-projet h3 {
+        text-align: center;
+    }
 }
+    
