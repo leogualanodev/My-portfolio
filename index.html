@@ -21,9 +21,9 @@
             </nav>
             <figure>
                 <img class="logotop" src="./images/logo.png" alt="">
-                <input id="dark-mode" type="button" value="Dark mode">
-                
-                
+                <button id="dark-mode">
+                    <img src="./images/lune.png" alt="">
+                </button> 
             </figure>
         </header>
     
@@ -139,32 +139,31 @@
     </section>
 
     <section class="portfolio" id="projet">
-        <h2> <span>M</span>on Portfolio</h2>
-        <div class="realisations">
-            <div class="morpion">
-                <div class="cadre">
-                    <img src="./images/mokeup-morpion.png" alt="">
-                    <h3>Réalisation d'un Morpion</h3>
-                    
-                    <div class="git"><a href="https://github.com/leogualanodev/morpion-game">Le projet </a></div>
+        <h2> <span>M</span>es Projets</h2>
+        <div id="morpion" class="container-projet">
+            <div class="description-projet">
+                <h3>Réalisation d'un Morpion</h3>
+                <p>Dans le cadre d'un petit projet personnel, j'ai développé le jeu du morpion en utilisant la technologie JavaScript. Cela m'a permis d'appréender un peu mieu le JavaScript et de m'exercer.</p>
+                <div class="button-projet">
+                    <button href="https://github.com/leogualanodev/morpion-game">Le projet</button>
+                    <button href="https://leogualanodev.github.io/morpion-game/">Le site</button>
                 </div>
             </div>
-            <div class="meteo">
-                <div class="cadre">
-                    <img src="./images/mokeup-api.png" alt="">
-                    <h3>Utilisation d'APi</h3>
-                    
-                    <div class="git"><a href="https://github.com/leogualanodev/API-Javascript">Le projet</a></div>
+            <div class="image-projet">
+                <img src="./images/mokeup-morpion.png" alt="">
+            </div>
+        </div>
+        <div id="API" class="container-projet">
+            <div class="description-projet">
+                <h3>Utilisation d'une API</h3>
+                <p>L'utilisation d'API est essentiel dans le cadre de ma formation. Ce projet m'a permis donc de m'exercer à l'utilisation d'API,  </p>
+                <div class="button-projet">
+                    <button href="https://github.com/leogualanodev/API-Javascript">Le projet</button>
+                    <button href="">Le site</button>
                 </div>
-             </div>
-            <div class="travauxP">
-                <div class="cadre">
-                    <img src="./images/mokeup-siteweb.png" alt="">
-                    <h3>Réalisation d'un site web</h3>
-                    
-                    <div class="git"><a href="">Le projet</a></div>
-                </div>
-
+            </div>
+            <div class="image-projet">
+                <img src="./images/mokeup-morpion.png" alt="">
             </div>
         </div>
     </section>
@@ -177,7 +176,7 @@
             <a href="https://github.com/leogualanodev"><img src="./images/github.png" alt=""></a>
             <img src="./images/linkdin.png" alt="" >
             <p>© 2022 Léo GUALANO</p>
-            <button href="#.body-color"><img src="./images/fleche.png" alt=""></button> 
+            <button id="scroll-top-button" href="#.body-color"><img src="./images/fleche.png" alt=""></button> 
 
         </div>
             

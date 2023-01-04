@@ -15,6 +15,8 @@ button.addEventListener(`click`, function(){
         logo1.src="./images/logo1.png";
         let burger=document.querySelector(".burger-logo");
         burger.src="./images/menu-burger.png";
+        let img = document.querySelector(`.img-mode`);
+        img.src = "./images/lune.png" ;
         
     }
 
@@ -25,6 +27,8 @@ button.addEventListener(`click`, function(){
         logo1.src="./images/logo-white-footer.png";
         let burger=document.querySelector(".burger-logo");
         burger.src="./images/burger-white.png";
+        let img = document.querySelector(`.img-mode`);
+        img.src = "./images/sun.svg" ;
     }
 })
 
@@ -48,42 +52,15 @@ const intervalID = setInterval(() => {
     }
 }, 100);
 
-// setTimeout(function(){
-//     for (let i = 0 ; i < tab.length ; i++){
-//         citation.innerHTML += tab[i]
-//     }
-// },100)
-
-// for ( let i = 0 ; i < tab.length ; i++){
-//     function (i) {
-//         setTimeout(function(){
-//             citation.innerHTML += tab[i] ; 
-//         }, 200)
-//     }
-// }
-
-// function setText (i) {
-//     setTimeout(function(){
-//         citation.innerHTML += tab[i]
-//     },2000)
-// }
-
-// for ( let i = 0 ; i < tab.length ; i++){
-//     setText(i)
-// }
+let scrollUp = document.querySelector(`#scroll-top-button`);
+scrollUp.addEventListener("click",function(){
+    window.scrollTo({top:0, behavior:"smooth"});
+})
 
 
 
 
-let buttonScrollUp= document.querySelector(`.reseaux button`)
 
-//buttonScrollscrollUp.addEventListener("click",scrollUp())
-
-function scrollUp(){
-
-}
-
-// https://w3collective.com/scroll-to-top-button-javascript/
 
 
     
