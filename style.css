@@ -320,6 +320,7 @@ h2{
     width: 80%;
     margin: auto;
     display: flex;
+    margin-top: 100px;
 }
 
 .description-projet {
