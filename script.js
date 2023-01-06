@@ -52,6 +52,7 @@ const intervalID = setInterval(() => {
     }
 }, 100);
 
+// scroll de la page vers le haut quand on est en bas de manière fluide
 let scrollUp = document.querySelector(`#scroll-top-button`);
 scrollUp.addEventListener("click",function(){
     window.scrollTo({top:0, behavior:"smooth"});
