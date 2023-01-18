@@ -264,7 +264,7 @@ h2{
     margin: 0;
     
     text-transform: none;
-    font-size: 20px;
+    font-size: 18px;
 }
 .html{
     display: flex;
@@ -277,8 +277,14 @@ h2{
     
     text-align: center;
 }
+.techno p {
+    font-size: 20px;
+    color: #b57335;
+    font-weight: bold;
+    text-shadow: 2px 2px 0px black;
+}
 .description{
-    width: 50%;
+    width: 70%;
 }
 
 /* annimatuion des mes images */
@@ -615,9 +621,7 @@ h2{
     .flot p{
         text-align: left;
     }
-    .desc-image {
-        display: none;
-    }
+    
 
     .image-projet img {
         width: 300px;
@@ -639,7 +643,12 @@ h2{
 
     .techno {
         padding-right: 15px;
+        
     }
+    .contenu-competences {
+        width: 100%;
+    }
+    
 
 
 
@@ -717,6 +726,18 @@ h2{
         text-align: center;
         
     }
+    .hmtl {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .technologie-container{
+        flex-direction: column;
+    }
+    .description p {
+        
+        font-size: 17px;
+    }
 
 }
 
@@ -790,18 +811,19 @@ h2{
         width: 100%;
 
     }
-    .html {
-        width: 100%;
-        
-        
+    .description {
+        display: none;
     }
+        
     .description p {
         text-align: center;
         margin-top: 15px;
+        font-size: 12px;
     }
     .contenu-competences {
         width: 100%;
         margin: auto;
+        
     }
     .container-projet {
         width: 100%;
@@ -810,5 +832,14 @@ h2{
     .container-projet h3 {
         text-align: center;
     }
+    .html {
+        justify-content: center;
+    }
+
+    .techno img{
+        padding: 10px;
+    }
+
+    
 }
     
