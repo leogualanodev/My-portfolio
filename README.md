@@ -1,4 +1,4 @@
-### Portfolio
+# Portfolio
 
 
 Bienvenue sur mon portfolio en ligne. Il s'agit d'un projet personnel qui a pour but de présenter mes compétences en développement web.
